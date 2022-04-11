@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/notosanstc.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Macondo">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/index_cover.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/hidden.css">
+        <link rel="stylesheet" type="text/css" href="css/ratio.css">
+        <link rel="stylesheet" type="text/css" href="css/card.css">
+        <link rel="stylesheet" type="text/css" href="css/player.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="https://www.facebook.com">Facebook</a></li>
+                    <li class="nav-list-item"><a href="https://www.google.com">Google</a></li>
+                    <li class="nav-list-item"><a href="https://progressbar.tw">Progress Bar</a></li>
+                </ul>
+                <button type="button" class="nav-button">
+                    <i class="fa fa-bar" aria-hidden="true"></i> 
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            
+            <section>
+                <!-- 首頁標語-->
+                <div class="row">
+                    <div class="col-phone-100"> 
+                        <div class="index-cover">
+                            <div class="index-container">
+                                <h1 class="_title">首頁標語</h1>
+                                <div>
+                                    <button type="button" class="btn btn_light">登入</button>
+                                    <button type="button" class="btn btn_dark">註冊</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- card-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-phone-100 col-tablet-50">
+                            <div class="card mdl-shadow-2dp">
+                                <div class="_image">
+                                    <div class="ratio_3_2">
+                                        <img class="ratio_content" src="https://images.pexels.com/photos/3829230/pexels-photo-3829230.jpeg?cs=srgb&dl=pexels-fox-3829230.jpg&fm=jpg"></img>
+                                    </div> 
+                                </div>
+                                <div class="_content">
+                                    <h4 class="_title">
+                                        title title  title title 
+                                    </h4>
+                                    <p class="_detail">
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                    </p>
+                                </div>
+                                <div class="_action">
+                                    <div class="_action_content">
+                                        <a href="https://progressbar.tw" class="_link">
+                                            <button class="btn" type="button">閱讀更多</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-phone-100 col-tablet-50">
+                            <div class="card mdl-shadow-2dp">
+                                <div class="_image">
+                                    <div class="ratio_3_2">
+                                        <img class="ratio_content" src="https://images.pexels.com/photos/3812048/pexels-photo-3812048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+                                    </div> 
+                                </div>
+                                <div class="_content">
+                                    <h4 class="_title">
+                                        title title  title title 
+                                    </h4>
+                                    <p class="_detail">
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                        deail deail deail deail deail deail
+                                    </p>
+                                </div>
+                                <div class="_action">
+                                    <div class="_action_content">
+                                        <a href="https://progressbar.tw" class="_link">
+                                            <button class="btn" type="button">閱讀更多</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- video player-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-phone-100 col-tablet-67">
+                            <div class="video-player">
+                                <div class="ratio_16_9">
+                                    <iframe id="video_player" class="ratio_content" src="https://www.youtube.com/embed/rFDcGBO4PWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-phone-100 col-tablet-33">
+                            <div class="video-list-container mdl-shadow-2dp">
+                                <div class="ratio_8_9">
+                                    <ul class="video-list ratio_content">
+                                        <li class="_video" data-video="rFDcGBO4PWc">01. Laravel 課程與介紹</li>
+                                        <li class="_video" data-video="Ef5QAfQ62Tg">01. Laravel 安裝前需要了解的一些事</li>
+                                        <li class="_video" data-video="MEK87xKbChQ">02 [Windows] 安裝 PHP 主程式</li>
+                                        <li class="_video" data-video="4iLWMn-iM1E">03. [Windows] 安裝 Composer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="remove_padding">
+                <!-- image link-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-tablet">
+                            <a href="#">
+                                <div class="ratio_3_2">
+                                    <img class="ratio_content" src="https://i4.disp.cc/imgur/2hMzj5M.jpg"></img>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-tablet">
+                            <a href="#">
+                                <div class="ratio_3_2">
+                                    <img class="ratio_content" src="https://i1.kzzsb.com/7e084628f1d49a/6817453df8d9/2f571b60a98ec92e/2c125064ad8ac329f42bc5a2a5d19bf396403b59ce1c3d7a1e4dd66817fe337777bca24c50348bf5e258b749bac0f500316b7b6cfef9a8f8.jpg"></img>
+                                </div>
+                            </a>            
+                        </div>
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone">
+                            <a href="#">
+                                <div class="ratio_3_2">
+                                    <img class="ratio_content" src="https://attach.setn.com/newsimages/2019/11/12/2239924-PH.jpg"></img>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-phone-100 col-tablet-50 col-desktop-25 hidden-on-phone">
+                            <a href="#">
+                                <div class="ratio_3_2">
+                                    <img class="ratio_content" src="https://imgur.com/fR8sose.jpg.jpg"></img>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="_container">
+                            <ul class="footer-link">
+                                <li>link 1</li>
+                                <li>link 1</li>
+                                <li>link 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-33">
+                            <div class="container">
+                            <ul class="footer-link">
+                                <li>link 1</li>
+                                <li>link 1</li>
+                                <li>link 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-phone-100 col-tablet-33">
+                        <div class="container _center">
+                            <div class="row">
+                                <div class=" col-phone-33">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-phone-33">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-phone-33">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </footer>
+
+        <script>
+            $(function(){
+                $(".nav-button").click(function(){
+                    $(".nav-list").slideToggle();
+                })
+
+                $("._video").click(function(){
+                            var video = $(this).data("video");
+                            var url = "https://www.youtube.com/embed/" + video;
+                            $("#video_player").attr('src',url);
+                        })
+                    
+            })
+        </script>
+
+    </body>
+</html>

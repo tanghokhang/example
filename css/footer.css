@@ -1,0 +1,39 @@
+footer{
+    background: #242424;
+}
+footer ._container{
+    margin: 56px 0;
+}
+footer ._container._center{
+    text-align: center;
+}
+
+ul.footer-link{
+    color: white;
+}
+
+ul.footer-link .li{
+    padding: 8px;
+}
+
+
+footer .fa{
+    color: white;
+    background: gray;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 32px;
+}
+
+@media(max-width:767px){
+    footer .container{
+        margin: 24px 0;
+    }
+
+    footer .fa{
+        margin-top: 0;
+    }
+}
